@@ -1,0 +1,9 @@
+import random
+
+a = random.sample(range(1,30), 5)
+b = random.sample(range(1,30),4)
+
+print(a)
+print(b)
+new_set= [ x for x in a if x in b ]
+print(new_set)
