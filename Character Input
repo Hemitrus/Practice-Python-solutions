@@ -1,0 +1,5 @@
+age = int(input("Enter your age ->"))
+hund = age + 100
+print('Your age in 100 years will be ' +str(hund))
+num = int(input('How many copies do you want?? '))
+print(num * (" Your age in 100 years will be {}\n ".format(hund)))
