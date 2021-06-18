@@ -1,0 +1,14 @@
+num = int(input('Enter your number -> '))
+check = int(input('Enter number to check -> '))
+
+if num%4 ==0:
+    print('It is divisble by 4')
+elif num%2==0:
+    print(f'{num} is even.')
+else:
+    print(f'{num} is odd.')
+
+if num%check == 0:
+    print(f'{num} is divided by {check} evenly.')       
+else:    
+    print('Not Divisible')
