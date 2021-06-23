@@ -1,0 +1,12 @@
+dates = {"Hemi": 'October 10' , "Demi": 'March 27' }   #name and date 
+
+name= input('Whose birth date do you want to know from Demi and Hemi? -> ')
+
+if name == 'Demi' or name == 'demi':
+    print(dates['Demi'])
+
+elif name == 'hemi' or name== 'Hemi':
+    print(dates['Hemi'])
+
+else:
+    print('Invalid input.') 
