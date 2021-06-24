@@ -1,0 +1,7 @@
+
+def discount(cost,disc):
+  price = ( cost - ((disc/100)*cost))
+  print(float(price))
+
+discount(100,20)
+
